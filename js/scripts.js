@@ -14,5 +14,11 @@ $(document).ready(function()  {
 //5~   userArray.push(i)
 // }
 // console.log(userArray);
-//6~  
+//6~  const isItOne = '1'
+///// let replaceOneWith = 'Beep!'
+///// let userStrArray = userArray.toString();
+///// console.log(userStrArray);
+///// let result1 = userStrArray.split(isItOne).join(replaceOneWith);
+
+///// console.log(result1)
     
