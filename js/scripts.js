@@ -16,6 +16,8 @@ for (let i = 0; i <= number; i++) {
   userArray.push[i] }
 } 
 userStrArray = userArray.join(",  ")
+
+$("#hidemefirst").show();
 $("#output").text(userStrArray); 
   });
 });

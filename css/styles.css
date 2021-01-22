@@ -1,3 +1,12 @@
 #output {
-  color: chartreuse;
+  color:rgb(49, 25, 199);
 }
+.col-3  {
+  float: left;
+}
+.words {
+  float:right
+}
+/* #hidemefirst  {
+  display: none;
+} */
