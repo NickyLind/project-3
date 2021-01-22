@@ -19,7 +19,31 @@
 _This project will have the user input a number. It will then output a range of numbers starting from 0 to the users number. If the number contains a 1 it will replace it with "Beep". If 2 it will replace it with a "Boop!". If it conatins a 3 it will replace it with a "Won't You Be My Neighbor". The exceptions will be written from least to most important. A three will overwrite a 2 and 1, a 2 will overwrite a 1._
 
 ##Specs
-}
+```
+
+Describe: areUNeighbor();
+
+Test: "It recognizes a number"
+Expect: (areUNeighbor("12")).toEqual(True)
+
+Test: "It makes an array from 0 to user's number"
+Expect: (areUNeighbor("4")).toEqual(0,1,2,3,4)
+
+Test: "It recognizes if numbers contain a 1"
+Expect: (areUNeighbor("1"))toEqual("Beep!")
+
+Test: "It recognizes if numbers contain a 2"
+Expect: (areUNeighbor("2")).toEqual("Boop!")
+
+Test: "It recognizes if numbers contain a 3"
+Expect: (areUNeighbor("3")).toEqual("R U My Neighbor?")
+
+Test: "It recognizes that 2 is more important than 1"
+Expect: (areUNeighbor("12")).toEqual("Beep")
+
+Test: "It recognizes that 3 is more important than 1 or 2"
+Expect: (areUNeighbor("123")).toEqual("R U My Neighbor?")
+```
 
 
 ## Setup/Installation Requirements
