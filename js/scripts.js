@@ -34,4 +34,12 @@ $(document).ready(function()  {
 //   } else if (i.toString().includes("1"))	
 //   	userArray.splice([i], i, "Beep!");
 //  }
-     
+//9~  for (let i = 0; i <= userNumber; i++) {
+//    userArray.push(i)
+//    if(i.toString().includes("3"))	{
+//    userArray.splice([i], i, "Are You My Neighbor");
+//   } else if (i.toString().includes("2"))	
+//   	userArray.splice([i], i, "Boop!");	
+//    else if (i.toString().includes("1"))	
+//   	userArray.splice([i], i, "Beep!");	 
+//  }    
