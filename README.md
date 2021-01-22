@@ -26,6 +26,12 @@ Describe: areUNeighbor();
 Test: "It recognizes a number"
 Expect: (areUNeighbor("12")).toEqual(True)
 
+Test: "It recognizes a number is greater than 0"
+Expect: (areUNeighbor("-1")).toEqual("input a positive number")
+
+Test: "It recognizes the number has no remainer"
+Expect: (areUNeighbor("1.2)).toEqual("input a whole number")
+
 Test: "It makes an array from 0 to user's number"
 Expect: (areUNeighbor("4")).toEqual(0,1,2,3,4)
 
