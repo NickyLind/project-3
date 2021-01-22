@@ -21,4 +21,11 @@ $(document).ready(function()  {
 ///// let result1 = userStrArray.split(isItOne).join(replaceOneWith);
 
 ///// console.log(result1)
-    
+//7~  for (let i = 0; i <= userNumber; i++) {
+//    userArray.push(i)
+//    if(i.toString().includes("1"))	{
+//    userArray.splice([i], i, "Beep!")
+//      }
+//    }
+//    console.log(userArray);
+     
