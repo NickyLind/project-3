@@ -9,7 +9,10 @@ $(document).ready(function()  {
 //3~  console.log(number % 1 !== 0)
 //4~ let userNumber = 4
 //   let userArray = [];
-//    for (let i = 0; i <= userNumber; i++)
+//    for (let i = 0; i <= userNumber; i++) {
 //    console.log(i)
-
+//5~   userArray.push(i)
+// }
+// console.log(userArray);
+//6~ 
     

@@ -30,10 +30,13 @@ Test: "It recognizes a number is greater than 0"
 Expect: (areUNeighbor("-1")).toEqual("input a positive number")
 
 Test: "It recognizes the number has no remainer"
-Expect: (areUNeighbor("1.2)).toEqual("input a whole number")
+Expect: (areUNeighbor("1.2")).toEqual("input a whole number")
+
+Test: "It recognizes all numbers between 0 and user number"
+Expect: (areUNeighbor("4")).toEqual("0,1,2,3,4")
 
 Test: "It makes an array from 0 to user's number"
-Expect: (areUNeighbor("4")).toEqual(0,1,2,3,4)
+Expect: (areUNeighbor("4")).toEqual([0,1,2,3,4])
 
 Test: "It recognizes if numbers contain a 1"
 Expect: (areUNeighbor("1"))toEqual("Beep!")
