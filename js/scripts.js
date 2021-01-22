@@ -42,4 +42,6 @@ $(document).ready(function()  {
 //   	userArray.splice([i], i, "Boop!");	
 //    else if (i.toString().includes("1"))	
 //   	userArray.splice([i], i, "Beep!");	 
-//  }    
+//  } 
+//10&11 let userNumber = 123
+//      console.log(userArray[123])
