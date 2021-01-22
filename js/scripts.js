@@ -27,5 +27,11 @@ $(document).ready(function()  {
 //    userArray.splice([i], i, "Beep!")
 //      }
 //    }
-//    console.log(userArray);
+//8~  for (let i = 0; i <= userNumber; i++) {
+//    userArray.push(i)
+//    if(i.toString().includes("2"))	{
+//    userArray.splice([i], i, "Boop!");
+//   } else if (i.toString().includes("1"))	
+//   	userArray.splice([i], i, "Beep!");
+//  }
      
