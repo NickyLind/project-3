@@ -41,6 +41,9 @@ Expect: (areUNeighbor("4")).toEqual([0,1,2,3,4])
 Test: "It recognizes if numbers contain a 1"
 Expect: (areUNeighbor("1"))toEqual("Beep!")
 
+Test: "It recognizes that whole number must be changed to beep"
+Expect: (areUNeighboy("11"))toEqual("Beep!")
+
 Test: "It recognizes if numbers contain a 2"
 Expect: (areUNeighbor("2")).toEqual("Boop!")
 
