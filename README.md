@@ -1,39 +1,46 @@
-# _{Application Name}_
+# _Project 3_
 
-#### _{Brief description of application}_
+#### _This project will use arrays and looping to change a range of numbers into strings on certain numbers_
 
-#### By _**{List of contributors}**_
+#### By _**Nick Lindau**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _Javascript_
+* _CSS_
+* _Bootsrap_
+* _Jquery_
+* _Visual Studio Code_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This project will have the user input a number. It will then output a range of numbers starting from 0 to the users number. If the number contains a 1 it will replace it with "Beep". If 2 it will replace it with a "Boop!". If it conatins a 3 it will replace it with a "Won't You Be My Neighbor". The exceptions will be written from least to most important. A three will overwrite a 2 and 1, a 2 will overwrite a 1._
+
+##Specs
+}
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Find the resposiotory at (https://github.com/NickyLind/project-3)_
+* _Select the green 'Code' button above the repository and copy the HHTPS link_
+* _In your terminal, find the directory you want to place the progamming-language-selector directory in_
+* _In your terminal, use the git command $git clone [paste HTTPS here]_
+* _Open in Visual Studio Code or another editor_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_If you are just interested in just viewing the webpage it is available on GitPages, or after you have cloned the repository to your local device you can open it via right-clicking the index.html file._
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+*
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_[MIT](https://choosealicense.com/licenses/mit/)_
+ _Copyright (c) Nick Lindau 01/22/2021_
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_Nick Lindau @ nicholaithegreat@gmail.com_
