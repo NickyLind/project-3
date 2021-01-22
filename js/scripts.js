@@ -1,7 +1,12 @@
 $(document).ready(function()  {
   $("#form").submit(function(event) {
     event.preventDefault();
-  });
+    let number = $("#input").val();
+  
+    
+    
+    
+
 });
 
 //1~ console.log(!isNaN(2));
