@@ -18,7 +18,7 @@
 
 _This project will have the user input a number. It will then output a range of numbers starting from 0 to the users number. If the number contains a 1 it will replace it with "Beep". If 2 it will replace it with a "Boop!". If it conatins a 3 it will replace it with a "Won't You Be My Neighbor". The exceptions will be written from least to most important. A three will overwrite a 2 and 1, a 2 will overwrite a 1._
 
-##Specs
+## Specs
 ```
 
 Describe: areUNeighbor();
@@ -70,7 +70,7 @@ _If you are just interested in just viewing the webpage it is available on GitPa
 
 ## Known Bugs
 
-*
+* N/A, please feel free to let me know if you find any!
 
 ## License
 

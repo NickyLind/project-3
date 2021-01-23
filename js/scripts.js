@@ -17,7 +17,8 @@ for (let i = 0; i <= number; i++) {
 } 
 userStrArray = userArray.join(",  ")
 
-$("#hidemefirst").show();
+$("#hidemefirst").hide();
+$("#hidemefirst").fadeIn(3000);
 $("#output").text(userStrArray); 
   });
 });
