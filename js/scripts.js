@@ -1,9 +1,9 @@
 $(document).ready(function()  {
   $("#form").submit(function(event) {
     event.preventDefault();
-
 let number = $("#input").val();
 let userArray = [];
+
 for (let i = 0; i <= number; i++) {
   userArray.push(i)
   if(i.toString().includes("3"))	{
